@@ -24,7 +24,6 @@ function draw() {
   let phaseX = width/2;
   let phaseY = height/2;
 
-  // Custom function to calculate moon phase colors
   let { phase1, phase2, phase3, phase4 } = MoonPhases(moon, moon_color, bg_color);
 
   fill(phase1);
